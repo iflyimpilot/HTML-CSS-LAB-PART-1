@@ -11,6 +11,11 @@ nav ul li {
 .nav {
   display: flex;
   flex-direction: ;
+  flex-wrap: ;
+  flex-flow: ;
+  justify-content: ;
+  align-items: ;
+  align-content: ;
 }
 
 ul {
