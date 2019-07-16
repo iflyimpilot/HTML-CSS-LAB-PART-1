@@ -8,6 +8,11 @@ nav ul li {
   color: #69696a;
 }
 
+.nav {
+  display: flex;
+  flex-direction: ;
+}
+
 ul {
   padding-left: 0;
 }
