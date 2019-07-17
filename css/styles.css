@@ -100,3 +100,13 @@ main {
   left: 80%;
   top: 60%;
 }
+
+#circle3 {
+  height: 120px;
+  width: 120px;
+  background-color: rgba(207, 130, 213, 0.6);
+  border-radius: 50%;
+  position: absolute;
+  left: 85%;
+  top: 50%;
+}
