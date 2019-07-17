@@ -2,12 +2,27 @@ html {
   padding-left: 10px;
   font-family: "Open Sans", sans-serif;
 }
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
 nav ul li {
   list-style-type: none;
-  padding-bottom: 8px;
+  padding: 0px 10px;
+  margin-top: 0;
   color: #69696a;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*
 .nav {
   display: flex;
   flex-direction: ;
@@ -17,10 +32,7 @@ nav ul li {
   align-items: ;
   align-content: ;
 }
-
-ul {
-  padding-left: 0;
-}
+*/
 
 #logo {
   color: #000;
@@ -34,6 +46,7 @@ p {
   border-left: 2px solid #69696a;
   padding-left: 13px;
   color: #69696a;
+  width: 50%;
 }
 
 .button1 {
@@ -44,14 +57,14 @@ p {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+
   font-size: 16px;
   margin: 0;
   color: #fff;
 }
 
 .button2 {
-  width: 100%;
+  width: auto%;
   background-color: #000;
   border: none;
   border-radius: 20px;
@@ -62,4 +75,28 @@ p {
   font-size: 16px;
   margin: 0;
   color: #fff;
+}
+
+main {
+  margin-top: 200px;
+}
+
+#circle1 {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(247, 136, 167, 0.6);
+  border-radius: 50%;
+  position: absolute;
+  left: 60%;
+  top: 35%;
+}
+
+#circle2 {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(247, 193, 162, 0.7);
+  border-radius: 50%;
+  position: absolute;
+  left: 80%;
+  top: 60%;
 }
