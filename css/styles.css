@@ -2,27 +2,12 @@ html {
   padding-left: 10px;
   font-family: "Open Sans", sans-serif;
 }
-
-nav ul {
-  display: flex;
-  align-items: center;
-}
-
 nav ul li {
   list-style-type: none;
-  padding: 0px 10px;
-  margin-top: 0;
+  padding-bottom: 8px;
   color: #69696a;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*
 .nav {
   display: flex;
   flex-direction: ;
@@ -32,10 +17,14 @@ header {
   align-items: ;
   align-content: ;
 }
-*/
+
+ul {
+  padding-left: 0;
+}
 
 #logo {
   color: #000;
+  font-weight: bold;
 }
 
 body {
@@ -43,7 +32,7 @@ body {
 }
 
 p {
-  border-left: 2px solid #69696a;
+  border-left: 4px solid #69696a;
   padding-left: 13px;
   color: #69696a;
   width: 50%;
@@ -57,14 +46,14 @@ p {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-
+  display: inline-block;
   font-size: 16px;
   margin: 0;
   color: #fff;
 }
 
 .button2 {
-  width: auto%;
+  width: 100%;
   background-color: #000;
   border: none;
   border-radius: 20px;
@@ -76,37 +65,110 @@ p {
   margin: 0;
   color: #fff;
 }
+ 
+  
+  
+}
 
 main {
   margin-top: 200px;
 }
 
 #circle1 {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   background-color: rgba(247, 136, 167, 0.6);
   border-radius: 50%;
   position: absolute;
-  left: 60%;
-  top: 35%;
+  right: 10%;
+  top: 20%;
+  
 }
 
 #circle2 {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   background-color: rgba(247, 193, 162, 0.7);
   border-radius: 50%;
   position: absolute;
-  left: 80%;
-  top: 60%;
+  right: 2%;
+  top: 35%;
+  
+
+
 }
 
 #circle3 {
-  height: 120px;
-  width: 120px;
+  height: 150px;;
+  width: 150px;;
   background-color: rgba(207, 130, 213, 0.6);
   border-radius: 50%;
   position: absolute;
-  left: 85%;
-  top: 50%;
+  right: 2%;
+  top: 25%;
 }
+
+
+
+@media only screen and (min-width:768px) {
+
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    padding: 0px 20px;
+    margin-top: 0;
+    color: #69696a;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button2 {
+    width: auto;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+    position: fixed;
+    bottom: 5px;
+    left: 45%; 
+  }
+
+  main {
+    margin-top: 200px;
+  }
+
+  
+
+}
+
+@media only screen and (max-width:767px) {
+
+  #circle1, #circle2, #circle3 {
+    display: none;
+  }
+
+  p {
+    border-left: 4px solid #69696a;
+    padding-left: 13px;
+    color: #69696a;
+    width: auto;
+  }
+
+ 
+}
+  
